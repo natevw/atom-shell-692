@@ -1,0 +1,14 @@
+{
+  "name": "atom-shell-692",
+  "private": true,
+  "version": "0.0.0",
+  "description": "atom-shell test case, issue #692",
+  "main": "backend.js",
+  "dependencies": {
+    "node-hid": "git+ssh://git@github.com:dhleong/node-hid.git#dhleong/Node-0.11.13"
+  },
+  "devDependencies": {
+    "atom-package-manager": "^0.97.0"
+  },
+  "author": "Nathan Vander Wilt"
+}

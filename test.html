@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>atom-shell test case</title>
+  </head>
+  <body>
+    <h1>atom-shell test case</h1>
+    
+    To reproduce <a href="https://github.com/atom/atom-shell/issues/692">atom-shell issue #692</a>, refresh this window.
+    
+    <div id=canary style="color: red">This text will disappear once native module is loaded.</div>
+    <script>
+        var hid = require('node-hid');
+        document.getElementById('canary').textContent = null;
+    </script>
+  </body>
+</html>
