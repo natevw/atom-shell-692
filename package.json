@@ -5,7 +5,7 @@
   "description": "atom-shell test case, issue #692",
   "main": "backend.js",
   "dependencies": {
-    "node-hid": "git+ssh://git@github.com:dhleong/node-hid.git#dhleong/Node-0.11.13"
+    "node-hid": "https://github.com/natevw/node-hid/releases/download/test-no-shell/node-hid-0.3.1.tgz"
   },
   "devDependencies": {
     "atom-package-manager": "^0.97.0"
